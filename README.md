@@ -16,3 +16,7 @@ com.sample.fml.input
 com.sample.fml.player
 
 * FMLのPlayerEvent3つのサンプル
+
+com.sample.fml.tick
+
+* TickEventの使い方
