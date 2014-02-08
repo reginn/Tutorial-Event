@@ -16,6 +16,11 @@ public class SamplePlayerEventCore
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
+		/*
+		 * Eventの登録.
+		 * 今回はこのクラスにEventメソッドを書いているのでthisでよい.
+		 * 別クラスに書いた場合はregister(new HogeEventClass())のようにする.
+		 */
 		FMLCommonHandler.instance().bus().register(this);
 	}
 
