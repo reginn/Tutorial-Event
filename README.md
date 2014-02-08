@@ -8,3 +8,11 @@ Tutorial-Event
 
 サンプル内容
 ==================
+
+com.sample.fml.input
+
+* キーとマウスの入力イベントのサンプル
+
+com.sample.fml.player
+
+* FMLのPlayerEvent3つのサンプル

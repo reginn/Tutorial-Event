@@ -1,4 +1,4 @@
-package com.sample.input;
+package com.sample.fml.input;
 
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.client.registry.ClientRegistry;
@@ -17,7 +17,7 @@ import org.lwjgl.input.Mouse;
 @Mod(modid = SampleInputEventCore.MODID, version = SampleInputEventCore.VERSION)
 public class SampleInputEventCore
 {
-	public static final String MODID = "InputEvent";
+	public static final String MODID = "FMLInputEvent";
 	public static final String VERSION = "0.0.0";
 
 	/*
