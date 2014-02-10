@@ -82,13 +82,13 @@ public class SampleInputEventCore
 		 * 1 : 右クリック
 		 * 2 : ホイール(センター)クリック
 		 */
-		if (Mouse.isButtonDown(0))
+		if (Mouse.isButtonDown(2))
 		{
 			FMLClientHandler
 					.instance()
 					.getClient()
 					.thePlayer
-					.addChatMessage(new ChatComponentTranslation("Mouse Left Button is Pressed"));
+					.addChatMessage(new ChatComponentTranslation("Mouse is Pressed"));
 		}
 	}
 
